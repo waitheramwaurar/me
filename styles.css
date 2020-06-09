@@ -1,0 +1,117 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  background-color: #FAFAD2;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color:#6495ED;
+}
+h2 {
+  font-family: "Times New Roman", serif;
+  color: #5F9EA0;
+}
+
+h3 {
+  text-align: left;
+  color:#5F9EA0;
+}
+
+p {
+  width: 70%;
+  line-height:2;
+  text-align: left;
+}
+.intro {
+  text-align: center;
+  margin: auto;
+}
+/*#topcontainer {
+  background-color: #FAEBD7;
+}*/
+.likes {
+  width:50%;
+  margin: 100px auto;
+}
+.reading {
+  width:30%;
+  float:left;
+  border-radius: 100%;
+  margin-right:50px;
+}
+.watching {
+  width:30%;
+  float:right;
+  border-radius: 100%;
+}
+hr {
+  border-style: dotted;
+  border-bottom: none;
+ border-width: thick;
+ width: 7%;
+ border-color: #8FBC8F
+}
+.code-img {
+  width:30%;
+  float:left;
+  margin-right:50px;
+}
+.cookies-img {
+  width:30%;
+  float:right;
+}
+.btn {
+	-moz-box-shadow:  -29px   ;
+	-webkit-box-shadow:  -29px   ;
+	box-shadow:  -29px   ;
+	background-color:#6495ED;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:40px;
+	line-height:40px;
+width:118px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#1E90FF;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #EEE8AA;
+  color:#808080
+}
+.footer a {
+  padding-left:20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #808080
+}
+.footer a:hover {
+  color:#48D1CC
+}
